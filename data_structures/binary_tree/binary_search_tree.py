@@ -1,6 +1,14 @@
 r"""
 A binary search Tree
 
++"""
+>>>Example usage:
+>>>from data_structures.binary_tree.binary_search_tree import BinarySearchTree
+    bst = BinarySearchTree()
++    bst.insert(4); bst.insert(2); bst.insert(6)
++    print(bst.find(6))  # True
++"""
+
 Example
               8
              / \
